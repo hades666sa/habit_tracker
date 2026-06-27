@@ -1,0 +1,33 @@
+--------- beginning of main
+06-22 01:00:02.632   702   738 E AppWidgetManager: Notify service of inheritance info
+06-22 01:00:02.632   702   738 E AppWidgetManager: java.lang.IllegalStateException: User 0 must be unlocked for widgets to be available
+06-22 01:00:02.632   702   738 E AppWidgetManager: 	at com.android.server.appwidget.AppWidgetServiceImpl.ensureGroupStateLoadedLocked(AppWidgetServiceImpl.java:1059)
+06-22 01:00:02.632   702   738 E AppWidgetManager: 	at com.android.server.appwidget.AppWidgetServiceImpl.ensureGroupStateLoadedLocked(AppWidgetServiceImpl.java:1044)
+06-22 01:00:02.632   702   738 E AppWidgetManager: 	at com.android.server.appwidget.AppWidgetServiceImpl.getInstalledProvidersForProfile(AppWidgetServiceImpl.java:2536)
+06-22 01:00:02.632   702   738 E AppWidgetManager: 	at android.appwidget.AppWidgetManager.getInstalledProvidersForProfile(AppWidgetManager.java:1107)
+06-22 01:00:02.632   702   738 E AppWidgetManager: 	at android.appwidget.AppWidgetManager.getInstalledProvidersForPackage(AppWidgetManager.java:1041)
+06-22 01:00:02.632   702   738 E AppWidgetManager: 	at android.appwidget.AppWidgetManager.lambda$new$3(AppWidgetManager.java:639)
+06-22 01:00:02.632   702   738 E AppWidgetManager: 	at android.appwidget.AppWidgetManager.$r8$lambda$WKLPyaeqLNLNb3560d7QJuq2DwQ(Unknown Source:0)
+06-22 01:00:02.632   702   738 E AppWidgetManager: 	at android.appwidget.AppWidgetManager$$ExternalSyntheticLambda7.run(D8$$SyntheticClass:0)
+06-22 01:00:02.632   702   738 E AppWidgetManager: 	at android.os.Handler.handleCallback(Handler.java:995)
+06-22 01:00:02.632   702   738 E AppWidgetManager: 	at android.os.Handler.dispatchMessage(Handler.java:103)
+06-22 01:00:02.632   702   738 E AppWidgetManager: 	at android.os.Looper.loopOnce(Looper.java:248)
+06-22 01:00:02.632   702   738 E AppWidgetManager: 	at android.os.Looper.loop(Looper.java:338)
+06-22 01:00:02.632   702   738 E AppWidgetManager: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+06-22 01:00:06.960   942  1146 E AppWidgetManager: Notify service of inheritance info
+06-22 01:00:06.960   942  1146 E AppWidgetManager: java.lang.IllegalStateException: User 0 must be unlocked for widgets to be available
+06-22 01:00:06.960   942  1146 E AppWidgetManager: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3348)
+06-22 01:00:06.960   942  1146 E AppWidgetManager: 	at android.os.Parcel.createException(Parcel.java:3324)
+06-22 01:00:06.960   942  1146 E AppWidgetManager: 	at android.os.Parcel.readException(Parcel.java:3307)
+06-22 01:00:06.960   942  1146 E AppWidgetManager: 	at android.os.Parcel.readException(Parcel.java:3249)
+06-22 01:00:06.960   942  1146 E AppWidgetManager: 	at com.android.internal.appwidget.IAppWidgetService$Stub$Proxy.getInstalledProvidersForProfile(IAppWidgetService.java:1071)
+06-22 01:00:06.960   942  1146 E AppWidgetManager: 	at android.appwidget.AppWidgetManager.getInstalledProvidersForProfile(AppWidgetManager.java:1107)
+06-22 01:00:06.960   942  1146 E AppWidgetManager: 	at android.appwidget.AppWidgetManager.getInstalledProvidersForPackage(AppWidgetManager.java:1041)
+06-22 01:00:06.960   942  1146 E AppWidgetManager: 	at android.appwidget.AppWidgetManager.lambda$new$3(AppWidgetManager.java:639)
+06-22 01:00:06.960   942  1146 E AppWidgetManager: 	at android.appwidget.AppWidgetManager.$r8$lambda$WKLPyaeqLNLNb3560d7QJuq2DwQ(Unknown Source:0)
+06-22 01:00:06.960   942  1146 E AppWidgetManager: 	at android.appwidget.AppWidgetManager$$ExternalSyntheticLambda7.run(D8$$SyntheticClass:0)
+06-22 01:00:06.960   942  1146 E AppWidgetManager: 	at android.os.Handler.handleCallback(Handler.java:995)
+06-22 01:00:06.960   942  1146 E AppWidgetManager: 	at android.os.Handler.dispatchMessage(Handler.java:103)
+06-22 01:00:06.960   942  1146 E AppWidgetManager: 	at android.os.Looper.loopOnce(Looper.java:248)
+06-22 01:00:06.960   942  1146 E AppWidgetManager: 	at android.os.Looper.loop(Looper.java:338)
+06-22 01:00:06.960   942  1146 E AppWidgetManager: 	at android.os.HandlerThread.run(HandlerThread.java:85)

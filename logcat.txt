@@ -1,0 +1,526 @@
+--------- beginning of main
+06-22 03:21:33.638  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteLoader_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:21:33.641  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteModulesA_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:21:33.644  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteModulesC_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:21:33.647  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_GoogleCertificates_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:21:33.649  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_MapsDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:21:33.653  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_MeasurementDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:21:33.654  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000001/CronetDynamite.apk has no usable artifacts
+06-22 03:21:33.656  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000014/dl-MlkitOcrCommon.optional_262233100800.apk has no usable artifacts
+06-22 03:21:33.658  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000002/DynamiteLoader.apk has no usable artifacts
+06-22 03:21:33.658  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000005/GoogleCertificates.apk has no usable artifacts
+06-22 03:21:33.660  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000013/dl-MlkitBarcodeUi.optional_262233100800.apk has no usable artifacts
+06-22 03:21:33.663  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000008/dl-MlkitBarcodeUi.optional_250834100800.apk has no usable artifacts
+06-22 03:21:33.666  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000019/dl-IdentityCredentialsPlatform.optional_262233100800.apk has no usable artifacts
+06-22 03:21:33.670  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000015/dl-PlayCloudSearch.optional_262233100000.apk has no usable artifacts
+06-22 03:21:33.673  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000a/dl-Appsearch.optional_250834100800.apk has no usable artifacts
+06-22 03:21:33.675  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000c/dl-TfliteDynamiteDynamite.integ_260580502100800.apk has no usable artifacts
+06-22 03:21:33.678  2345  2353 I artd    : GetBestInfo: vdex next to the dex file (/data/user/0/com.google.android.gms/app_dg_cache/9BCBC14EE674B00B958D4B0C5B4BD883630AA39E/oat/x86_64/the.vdex) is kOatUpToDate with filter 'verify' executable 'false'
+06-22 03:21:33.681  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000017/dl-Appsearch.optional_262233100800.apk has no usable artifacts
+06-22 03:21:33.684  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000016/dl-VisionOcr.optional_262233100000.apk has no usable artifacts
+06-22 03:21:33.687  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000007/MeasurementDynamite.apk has no usable artifacts
+06-22 03:21:34.992   931   931 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+06-22 03:21:39.375  1070  1288 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-22 03:21:39.844  1540  1882 I bbax    : (REDACTED) getHotwordActive::active query: %s, watch: %s, devices connected: %s
+06-22 03:21:42.929   931   931 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+06-22 03:21:43.375  7409  7409 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: package
+06-22 03:21:43.671  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/base.odex) is kOatUpToDate with filter 'speed-profile' executable 'false'
+06-22 03:21:43.674  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_AdsDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:21:43.678  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_CronetDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:21:43.684  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteLoader_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:21:43.689  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteModulesA_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:21:43.693  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteModulesC_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:21:43.697  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_GoogleCertificates_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:21:43.701  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_MapsDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:21:43.706  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_MeasurementDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:21:43.707  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000001/CronetDynamite.apk has no usable artifacts
+06-22 03:21:43.710  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000014/dl-MlkitOcrCommon.optional_262233100800.apk has no usable artifacts
+06-22 03:21:43.712  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000002/DynamiteLoader.apk has no usable artifacts
+06-22 03:21:43.712  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000005/GoogleCertificates.apk has no usable artifacts
+06-22 03:21:43.715  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000013/dl-MlkitBarcodeUi.optional_262233100800.apk has no usable artifacts
+06-22 03:21:43.718  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000008/dl-MlkitBarcodeUi.optional_250834100800.apk has no usable artifacts
+06-22 03:21:43.722  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000019/dl-IdentityCredentialsPlatform.optional_262233100800.apk has no usable artifacts
+06-22 03:21:43.726  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000015/dl-PlayCloudSearch.optional_262233100000.apk has no usable artifacts
+06-22 03:21:43.731  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000a/dl-Appsearch.optional_250834100800.apk has no usable artifacts
+06-22 03:21:43.734  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000c/dl-TfliteDynamiteDynamite.integ_260580502100800.apk has no usable artifacts
+06-22 03:21:43.737  2345  2353 I artd    : GetBestInfo: vdex next to the dex file (/data/user/0/com.google.android.gms/app_dg_cache/9BCBC14EE674B00B958D4B0C5B4BD883630AA39E/oat/x86_64/the.vdex) is kOatUpToDate with filter 'verify' executable 'false'
+06-22 03:21:43.739  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000017/dl-Appsearch.optional_262233100800.apk has no usable artifacts
+06-22 03:21:43.742  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000016/dl-VisionOcr.optional_262233100000.apk has no usable artifacts
+06-22 03:21:43.745  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000007/MeasurementDynamite.apk has no usable artifacts
+06-22 03:21:49.371  1070  1288 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-22 03:21:50.865   931   931 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+06-22 03:21:53.381  7413  7413 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: package
+06-22 03:21:53.618  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/base.odex) is kOatUpToDate with filter 'speed-profile' executable 'false'
+06-22 03:21:53.622  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_AdsDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:21:53.625  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_CronetDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:21:53.630  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteLoader_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:21:53.634  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteModulesA_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:21:53.638  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteModulesC_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:21:53.642  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_GoogleCertificates_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:21:53.645  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_MapsDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:21:53.649  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_MeasurementDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:21:53.650  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000001/CronetDynamite.apk has no usable artifacts
+06-22 03:21:53.652  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000014/dl-MlkitOcrCommon.optional_262233100800.apk has no usable artifacts
+06-22 03:21:53.653  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000002/DynamiteLoader.apk has no usable artifacts
+06-22 03:21:53.655  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000005/GoogleCertificates.apk has no usable artifacts
+06-22 03:21:53.658  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000013/dl-MlkitBarcodeUi.optional_262233100800.apk has no usable artifacts
+06-22 03:21:53.661  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000008/dl-MlkitBarcodeUi.optional_250834100800.apk has no usable artifacts
+06-22 03:21:53.664  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000019/dl-IdentityCredentialsPlatform.optional_262233100800.apk has no usable artifacts
+06-22 03:21:53.666  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000015/dl-PlayCloudSearch.optional_262233100000.apk has no usable artifacts
+06-22 03:21:53.669  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000a/dl-Appsearch.optional_250834100800.apk has no usable artifacts
+06-22 03:21:53.673  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000c/dl-TfliteDynamiteDynamite.integ_260580502100800.apk has no usable artifacts
+06-22 03:21:53.677  2345  2353 I artd    : GetBestInfo: vdex next to the dex file (/data/user/0/com.google.android.gms/app_dg_cache/9BCBC14EE674B00B958D4B0C5B4BD883630AA39E/oat/x86_64/the.vdex) is kOatUpToDate with filter 'verify' executable 'false'
+06-22 03:21:53.679  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000017/dl-Appsearch.optional_262233100800.apk has no usable artifacts
+06-22 03:21:53.682  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000016/dl-VisionOcr.optional_262233100000.apk has no usable artifacts
+06-22 03:21:53.683  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000007/MeasurementDynamite.apk has no usable artifacts
+06-22 03:21:58.800   931   931 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+06-22 03:21:59.370  1070  1288 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-22 03:22:03.389  7416  7416 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: package
+06-22 03:22:03.827  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/base.odex) is kOatUpToDate with filter 'speed-profile' executable 'false'
+06-22 03:22:03.832  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_AdsDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:03.837  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_CronetDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:03.840  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteLoader_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:03.850  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteModulesA_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:03.853  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteModulesC_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:03.857  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_GoogleCertificates_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:03.861  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_MapsDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:03.865  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_MeasurementDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:03.867  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000001/CronetDynamite.apk has no usable artifacts
+06-22 03:22:03.870  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000014/dl-MlkitOcrCommon.optional_262233100800.apk has no usable artifacts
+06-22 03:22:03.873  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000002/DynamiteLoader.apk has no usable artifacts
+06-22 03:22:03.873  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000005/GoogleCertificates.apk has no usable artifacts
+06-22 03:22:03.876  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000013/dl-MlkitBarcodeUi.optional_262233100800.apk has no usable artifacts
+06-22 03:22:03.879  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000008/dl-MlkitBarcodeUi.optional_250834100800.apk has no usable artifacts
+06-22 03:22:03.882  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000019/dl-IdentityCredentialsPlatform.optional_262233100800.apk has no usable artifacts
+06-22 03:22:03.885  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000015/dl-PlayCloudSearch.optional_262233100000.apk has no usable artifacts
+06-22 03:22:03.889  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000a/dl-Appsearch.optional_250834100800.apk has no usable artifacts
+06-22 03:22:03.891  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000c/dl-TfliteDynamiteDynamite.integ_260580502100800.apk has no usable artifacts
+06-22 03:22:03.895   702   717 I system_server: Background concurrent mark compact GC freed 25MB AllocSpace bytes, 7(140KB) LOS objects, 43% free, 30MB/54MB, paused 4.380ms,6.511ms total 342.207ms
+06-22 03:22:03.896  2345  2353 I artd    : GetBestInfo: vdex next to the dex file (/data/user/0/com.google.android.gms/app_dg_cache/9BCBC14EE674B00B958D4B0C5B4BD883630AA39E/oat/x86_64/the.vdex) is kOatUpToDate with filter 'verify' executable 'false'
+06-22 03:22:03.898  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000017/dl-Appsearch.optional_262233100800.apk has no usable artifacts
+06-22 03:22:03.901  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000016/dl-VisionOcr.optional_262233100000.apk has no usable artifacts
+06-22 03:22:03.903  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000007/MeasurementDynamite.apk has no usable artifacts
+06-22 03:22:06.994   931   931 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+06-22 03:22:09.373  1070  1288 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-22 03:22:13.394  7419  7419 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: package
+06-22 03:22:13.864  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/base.odex) is kOatUpToDate with filter 'speed-profile' executable 'false'
+06-22 03:22:13.870  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_AdsDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:13.875  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_CronetDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:13.881  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteLoader_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:13.886  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteModulesA_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:13.891  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteModulesC_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:13.897  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_GoogleCertificates_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:13.901  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_MapsDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:13.905  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_MeasurementDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:13.907  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000001/CronetDynamite.apk has no usable artifacts
+06-22 03:22:13.910  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000014/dl-MlkitOcrCommon.optional_262233100800.apk has no usable artifacts
+06-22 03:22:13.911  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000002/DynamiteLoader.apk has no usable artifacts
+06-22 03:22:13.912  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000005/GoogleCertificates.apk has no usable artifacts
+06-22 03:22:13.914  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000013/dl-MlkitBarcodeUi.optional_262233100800.apk has no usable artifacts
+06-22 03:22:13.920  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000008/dl-MlkitBarcodeUi.optional_250834100800.apk has no usable artifacts
+06-22 03:22:13.924  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000019/dl-IdentityCredentialsPlatform.optional_262233100800.apk has no usable artifacts
+06-22 03:22:13.928  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000015/dl-PlayCloudSearch.optional_262233100000.apk has no usable artifacts
+06-22 03:22:13.931  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000a/dl-Appsearch.optional_250834100800.apk has no usable artifacts
+06-22 03:22:13.934  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000c/dl-TfliteDynamiteDynamite.integ_260580502100800.apk has no usable artifacts
+06-22 03:22:13.938  2345  2353 I artd    : GetBestInfo: vdex next to the dex file (/data/user/0/com.google.android.gms/app_dg_cache/9BCBC14EE674B00B958D4B0C5B4BD883630AA39E/oat/x86_64/the.vdex) is kOatUpToDate with filter 'verify' executable 'false'
+06-22 03:22:13.943  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000017/dl-Appsearch.optional_262233100800.apk has no usable artifacts
+06-22 03:22:13.946  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000016/dl-VisionOcr.optional_262233100000.apk has no usable artifacts
+06-22 03:22:13.949  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000007/MeasurementDynamite.apk has no usable artifacts
+06-22 03:22:14.930   931   931 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+06-22 03:22:19.373  1070  1288 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-22 03:22:22.865   931   931 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+06-22 03:22:23.379  7422  7422 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: package
+06-22 03:22:23.893  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/base.odex) is kOatUpToDate with filter 'speed-profile' executable 'false'
+06-22 03:22:23.902  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_AdsDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:23.908  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_CronetDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:23.913  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteLoader_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:23.920  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteModulesA_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:23.925  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteModulesC_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:23.931  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_GoogleCertificates_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:23.936  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_MapsDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:23.941  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_MeasurementDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:23.943  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000001/CronetDynamite.apk has no usable artifacts
+06-22 03:22:23.947  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000014/dl-MlkitOcrCommon.optional_262233100800.apk has no usable artifacts
+06-22 03:22:23.949  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000002/DynamiteLoader.apk has no usable artifacts
+06-22 03:22:23.951  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000005/GoogleCertificates.apk has no usable artifacts
+06-22 03:22:23.956  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000013/dl-MlkitBarcodeUi.optional_262233100800.apk has no usable artifacts
+06-22 03:22:23.962  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000008/dl-MlkitBarcodeUi.optional_250834100800.apk has no usable artifacts
+06-22 03:22:23.969  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000019/dl-IdentityCredentialsPlatform.optional_262233100800.apk has no usable artifacts
+06-22 03:22:23.976  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000015/dl-PlayCloudSearch.optional_262233100000.apk has no usable artifacts
+06-22 03:22:23.981  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000a/dl-Appsearch.optional_250834100800.apk has no usable artifacts
+06-22 03:22:23.986  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000c/dl-TfliteDynamiteDynamite.integ_260580502100800.apk has no usable artifacts
+06-22 03:22:23.991  2345  2353 I artd    : GetBestInfo: vdex next to the dex file (/data/user/0/com.google.android.gms/app_dg_cache/9BCBC14EE674B00B958D4B0C5B4BD883630AA39E/oat/x86_64/the.vdex) is kOatUpToDate with filter 'verify' executable 'false'
+06-22 03:22:23.996  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000017/dl-Appsearch.optional_262233100800.apk has no usable artifacts
+06-22 03:22:23.999  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000016/dl-VisionOcr.optional_262233100000.apk has no usable artifacts
+06-22 03:22:24.003  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000007/MeasurementDynamite.apk has no usable artifacts
+06-22 03:22:29.371  1070  1288 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-22 03:22:30.801   931   931 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+06-22 03:22:33.528  7425  7425 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: package
+06-22 03:22:33.769  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/base.odex) is kOatUpToDate with filter 'speed-profile' executable 'false'
+06-22 03:22:33.775  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_AdsDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:33.780  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_CronetDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:33.784  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteLoader_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:33.787  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteModulesA_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:33.790  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteModulesC_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:33.795  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_GoogleCertificates_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:33.799  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_MapsDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:33.802  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_MeasurementDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:33.804  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000001/CronetDynamite.apk has no usable artifacts
+06-22 03:22:33.806  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000014/dl-MlkitOcrCommon.optional_262233100800.apk has no usable artifacts
+06-22 03:22:33.807  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000002/DynamiteLoader.apk has no usable artifacts
+06-22 03:22:33.808  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000005/GoogleCertificates.apk has no usable artifacts
+06-22 03:22:33.811  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000013/dl-MlkitBarcodeUi.optional_262233100800.apk has no usable artifacts
+06-22 03:22:33.814  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000008/dl-MlkitBarcodeUi.optional_250834100800.apk has no usable artifacts
+06-22 03:22:33.818  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000019/dl-IdentityCredentialsPlatform.optional_262233100800.apk has no usable artifacts
+06-22 03:22:33.822  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000015/dl-PlayCloudSearch.optional_262233100000.apk has no usable artifacts
+06-22 03:22:33.825  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000a/dl-Appsearch.optional_250834100800.apk has no usable artifacts
+06-22 03:22:33.829  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000c/dl-TfliteDynamiteDynamite.integ_260580502100800.apk has no usable artifacts
+06-22 03:22:33.833  2345  2353 I artd    : GetBestInfo: vdex next to the dex file (/data/user/0/com.google.android.gms/app_dg_cache/9BCBC14EE674B00B958D4B0C5B4BD883630AA39E/oat/x86_64/the.vdex) is kOatUpToDate with filter 'verify' executable 'false'
+06-22 03:22:33.836  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000017/dl-Appsearch.optional_262233100800.apk has no usable artifacts
+06-22 03:22:33.839  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000016/dl-VisionOcr.optional_262233100000.apk has no usable artifacts
+06-22 03:22:33.841  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000007/MeasurementDynamite.apk has no usable artifacts
+06-22 03:22:38.994   931   931 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+06-22 03:22:39.373  1070  1288 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-22 03:22:39.843  1540  2099 I bbax    : (REDACTED) getHotwordActive::active query: %s, watch: %s, devices connected: %s
+06-22 03:22:43.337  7428  7428 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: package
+06-22 03:22:43.594  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/base.odex) is kOatUpToDate with filter 'speed-profile' executable 'false'
+06-22 03:22:43.605  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_AdsDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:43.609  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_CronetDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:43.612  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteLoader_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:43.617  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteModulesA_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:43.621  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteModulesC_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:43.625  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_GoogleCertificates_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:43.628  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_MapsDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:43.632  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_MeasurementDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:43.635  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000001/CronetDynamite.apk has no usable artifacts
+06-22 03:22:43.637  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000014/dl-MlkitOcrCommon.optional_262233100800.apk has no usable artifacts
+06-22 03:22:43.638  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000002/DynamiteLoader.apk has no usable artifacts
+06-22 03:22:43.639  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000005/GoogleCertificates.apk has no usable artifacts
+06-22 03:22:43.641  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000013/dl-MlkitBarcodeUi.optional_262233100800.apk has no usable artifacts
+06-22 03:22:43.644  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000008/dl-MlkitBarcodeUi.optional_250834100800.apk has no usable artifacts
+06-22 03:22:43.647  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000019/dl-IdentityCredentialsPlatform.optional_262233100800.apk has no usable artifacts
+06-22 03:22:43.649  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000015/dl-PlayCloudSearch.optional_262233100000.apk has no usable artifacts
+06-22 03:22:43.652  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000a/dl-Appsearch.optional_250834100800.apk has no usable artifacts
+06-22 03:22:43.656  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000c/dl-TfliteDynamiteDynamite.integ_260580502100800.apk has no usable artifacts
+06-22 03:22:43.660  2345  2353 I artd    : GetBestInfo: vdex next to the dex file (/data/user/0/com.google.android.gms/app_dg_cache/9BCBC14EE674B00B958D4B0C5B4BD883630AA39E/oat/x86_64/the.vdex) is kOatUpToDate with filter 'verify' executable 'false'
+06-22 03:22:43.662  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000017/dl-Appsearch.optional_262233100800.apk has no usable artifacts
+06-22 03:22:43.665  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000016/dl-VisionOcr.optional_262233100000.apk has no usable artifacts
+06-22 03:22:43.668  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000007/MeasurementDynamite.apk has no usable artifacts
+06-22 03:22:46.939   931   931 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+--------- beginning of system
+06-22 03:22:48.739   702   793 D ActivityManager: sync unfroze 3190 com.google.android.apps.safetyhub for 6
+06-22 03:22:48.890   702  1237 W ProcessStats: Tracking association SourceState{5833f43 system/1000 ImpBg #3845} whose proc state 6 is better than process ProcessState{94eea4d com.google.android.apps.safetyhub/10144 pkg=com.google.android.apps.safetyhub} proc state 14 (3 skipped)
+06-22 03:22:48.891  3190  3190 W TimedProcessReaper: Memory state is: 230
+06-22 03:22:48.952   702  1237 D ActivityManager: sync unfroze 1594 com.google.android.gms for 6
+06-22 03:22:49.089  1594  1594 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.security.safebrowsing.SafeBrowsingGmsTaskBoundService.ACTION_TASK_READY dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+06-22 03:22:49.089  1594  1594 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.security.safebrowsing.SafeBrowsingGmsTaskBoundService.ACTION_TASK_READY dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+06-22 03:22:49.093  1243  1243 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.libs.gmscorelogger.service.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.PersistentDirectBootAwareApiService }
+06-22 03:22:49.405  1243  7405 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+06-22 03:22:49.405  3190  3190 I Safetyhub.SyncManagerImpl: #sync(). Running Synclets and scheduling next sync.
+06-22 03:22:49.407  1070  1288 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-22 03:22:49.505  3190  3259 I Safetyhub.SyncManagerImpl: Running synclets: [SafetyHubDataSynclet]
+06-22 03:22:49.534  3190  3311 I Safetyhub.SyncManagerImpl: Starting synclet: SafetyHubDataSynclet
+06-22 03:22:49.783  1243  1243 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.PersistentApiService }
+06-22 03:22:49.841  3190  3200 W .apps.safetyhub: Reducing the number of considered missed Gc histogram windows from 294 to 100
+06-22 03:22:50.114  3190  3261 I Safetyhub.SyncManagerImpl: Completed sync. Scheduling next wakeup
+06-22 03:22:50.114  3190  3299 I Safetyhub.SyncManagerImpl: #sync() complete
+06-22 03:22:50.114  3190  3261 I Safetyhub.SyncWorkManagerOneTimeScheduler: Scheduling next onetime WorkManager workers
+06-22 03:22:50.131  3190  3299 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=ba063608-33d9-48a9-864b-048688ad931f, tags={ com.google.apps.tiktok.contrib.work.TikTokListenableWorker,com.google.apps.tiktok.sync.impl.workmanager.SyncWorker,TikTokWorker#com.google.apps.tiktok.sync.impl.workmanager.SyncWorker } ]
+06-22 03:22:50.291   702   853 W IPCThreadState: Sending oneway calls to frozen process.
+06-22 03:22:50.344   702   793 D ActivityManager: sync unfroze 1979 com.android.vending for 6
+06-22 03:22:50.347   702   793 D ActivityManager: sync unfroze 2470 com.android.vending:background for 6
+06-22 03:22:50.452  2470  2541 I Finsky:background: [41] Stats for Executor: bgExecutor wbt@cdeadfb[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 218]
+06-22 03:22:50.453  2470  2541 I Finsky:background: [41] Stats for Executor: LightweightExecutor wbt@ef4be18[Running, pool size = 3, active threads = 0, queued tasks = 0, completed tasks = 229]
+06-22 03:22:50.454  2470  2541 I Finsky:background: [41] Stats for Executor: BlockingExecutor wbt@eb07071[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 38]
+06-22 03:22:50.521  1979  2202 I Finsky  : [41] Stats for Executor: BlockingExecutor wbt@df6ebf9[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 371]
+06-22 03:22:50.524  1979  2202 I Finsky  : [41] Stats for Executor: LightweightExecutor wbt@da8a99f[Running, pool size = 3, active threads = 0, queued tasks = 0, completed tasks = 1289]
+06-22 03:22:50.541  3190  3299 I Safetyhub.SyncWorkManagerOneTimeScheduler: Successfully scheduled next onetime workers
+06-22 03:22:50.550  1979  2202 I Finsky  : [41] Stats for Executor: bgExecutor wbt@1904908[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 4482]
+06-22 03:22:51.058  1979  1979 I Finsky  : [2] SCH: job service start with id 9391.
+06-22 03:22:51.073  1979  1979 I Finsky  : [2] SCH: job service start with id 9262.
+06-22 03:22:51.137  1243  7266 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-22 03:22:51.140  1594  1594 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.security.safebrowsing.SafeBrowsingGmsTaskBoundService.ACTION_TASK_READY dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+06-22 03:22:51.223  2470  2470 I Finsky:background: [2] SCH: job service start with id 10047.
+06-22 03:22:51.358  1979  7446 I Finsky  : [201] SCH: Satisfied jobs for 9391 are: 44-1027
+06-22 03:22:51.391  1979  2327 I Finsky  : [64] SCH: no pending jobs to schedule.
+06-22 03:22:51.565  2470  2601 I Finsky:background: [55] SCH: Scheduling phonesky job Id: 3-24, CT: 1782075635357, Constraints: [{ L: 0, D: 86400000, C: CHARGING_REQUIRED, I: IDLE_REQUIRED, N: NET_UNMETERED, B: BATTERY_ANY }]
+06-22 03:22:51.566  2470  2601 I Finsky:background: [55] SCH: Scheduling phonesky job Id: 3-25, CT: 1782075635426, Constraints: [{ L: 0, D: 86400000, C: CHARGING_REQUIRED, I: IDLE_REQUIRED, N: NET_UNMETERED, B: BATTERY_ANY }]
+06-22 03:22:51.792  1979  7441 I Finsky  : [200] SCH: Job 44-1027 starting
+06-22 03:22:51.805  1979  7441 I Finsky  : [200] SCH: job service finished with id 9262.
+06-22 03:22:51.837  1979  1979 I Finsky  : [2] WM::SCH: Logging work start for 44-1027
+06-22 03:22:51.879  2470  2576 I Finsky:background: [48] SCH: Scheduling 1 system job(s)
+06-22 03:22:51.896  2470  2576 I Finsky:background: [48] SCH: Scheduling system job Id: 10087, L: 0, D: 77863477, C: true, I: true, N: 2
+06-22 03:22:51.949  2470  7445 I Finsky:background: [107] SCH: job service finished with id 10047.
+06-22 03:22:52.266  1979  7449 I Finsky  : [203] [profile-inception]: Verifying installed by com.android.vending
+06-22 03:22:52.364  1979  7449 I Finsky  : [203] [profile-inception]: AOT Compilation job started.
+06-22 03:22:52.947  1979  7449 I Finsky  : [203] [profile-inception]: compilation exitValue=255
+06-22 03:22:52.993  1979  7449 W Finsky  : [203] [profile-inception]: compilation failed, exitValue=255
+06-22 03:22:53.009  1979  7449 I Finsky  : [203] SCH: jobFinished: 44-1027. TimeElapsed: 1191ms.
+06-22 03:22:53.031  1979  7449 I Finsky  : [203] WM::SCH: Logging work end for 44-1027
+06-22 03:22:53.134  1979  2334 I Finsky  : [65] SCH: Scheduling phonesky job Id: 10-79, CT: 1782075653186, Constraints: [{ L: 0, D: 86400000, C: CHARGING_NONE, I: IDLE_REQUIRED, N: NET_NONE, B: BATTERY_ANY }]
+06-22 03:22:53.135  1979  2334 I Finsky  : [65] SCH: Scheduling phonesky job Id: 10-168, CT: 1782075653186, Constraints: [{ L: 0, D: 86400000, C: CHARGING_NONE, I: IDLE_REQUIRED, N: NET_NONE, B: BATTERY_ANY }]
+06-22 03:22:53.157  1979  2299 I Finsky  : [57] SCH: Scheduling 1 system job(s)
+06-22 03:22:53.159  1979  2299 I Finsky  : [57] SCH: Scheduling system job Id: 9394, L: 0, D: 77880029, C: false, I: true, N: 0
+06-22 03:22:53.182  1979  7441 I Finsky  : [200] SCH: job service finished with id 9391.
+06-22 03:22:53.199  2470  2470 I Finsky:background: [2] Memory trim requested to level 40
+06-22 03:22:53.214  1979  1979 I Finsky  : [2] Memory trim requested to level 40
+06-22 03:22:53.223  1979  1979 I Finsky  : [2] Flushing in-memory image cache
+06-22 03:22:53.340  7455  7455 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: package
+06-22 03:22:53.739  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/base.odex) is kOatUpToDate with filter 'speed-profile' executable 'false'
+06-22 03:22:53.744  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_AdsDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:53.748  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_CronetDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:53.751  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteLoader_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:53.756  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteModulesA_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:53.762  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteModulesC_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:53.765  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_GoogleCertificates_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:53.768  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_MapsDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:53.772  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_MeasurementDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:22:53.774  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000001/CronetDynamite.apk has no usable artifacts
+06-22 03:22:53.778  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000014/dl-MlkitOcrCommon.optional_262233100800.apk has no usable artifacts
+06-22 03:22:53.779  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000002/DynamiteLoader.apk has no usable artifacts
+06-22 03:22:53.780  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000005/GoogleCertificates.apk has no usable artifacts
+06-22 03:22:53.784  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000013/dl-MlkitBarcodeUi.optional_262233100800.apk has no usable artifacts
+06-22 03:22:53.787  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000008/dl-MlkitBarcodeUi.optional_250834100800.apk has no usable artifacts
+06-22 03:22:53.790  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000019/dl-IdentityCredentialsPlatform.optional_262233100800.apk has no usable artifacts
+06-22 03:22:53.795  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000015/dl-PlayCloudSearch.optional_262233100000.apk has no usable artifacts
+06-22 03:22:53.801  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000a/dl-Appsearch.optional_250834100800.apk has no usable artifacts
+06-22 03:22:53.807  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000c/dl-TfliteDynamiteDynamite.integ_260580502100800.apk has no usable artifacts
+06-22 03:22:53.811  2345  2353 I artd    : GetBestInfo: vdex next to the dex file (/data/user/0/com.google.android.gms/app_dg_cache/9BCBC14EE674B00B958D4B0C5B4BD883630AA39E/oat/x86_64/the.vdex) is kOatUpToDate with filter 'verify' executable 'false'
+06-22 03:22:53.813  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000017/dl-Appsearch.optional_262233100800.apk has no usable artifacts
+06-22 03:22:53.816  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000016/dl-VisionOcr.optional_262233100000.apk has no usable artifacts
+06-22 03:22:53.819  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000007/MeasurementDynamite.apk has no usable artifacts
+06-22 03:22:54.439  2470  2496 W ding:background: Reducing the number of considered missed Gc histogram windows from 631 to 100
+06-22 03:22:54.814  1243  1243 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.PersistentApiService }
+06-22 03:22:54.865   931   931 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+06-22 03:22:59.384  1070  1288 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-22 03:23:00.209   702   802 D ActivityManager: freezing 3190 com.google.android.apps.safetyhub
+06-22 03:23:00.214   702   853 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-22 03:23:00.215   702   853 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-22 03:23:00.217   702   853 D InetDiagMessage: Destroyed live tcp sockets for uids={10144} in 6ms
+06-22 03:23:01.152   702   802 D ActivityManager: freezing 1594 com.google.android.gms
+06-22 03:23:02.667   702  1832 D WifiNl80211Manager: Scan result ready event
+06-22 03:23:02.668   702  1832 D WifiNative: Scan result ready event
+06-22 03:23:02.674  1243  2333 I WifiScanner: onFullResults
+06-22 03:23:02.674  1243  3985 I WifiScanner: onFullResults
+06-22 03:23:02.684   702   846 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+06-22 03:23:03.203   702   802 D ActivityManager: freezing 1979 com.android.vending
+06-22 03:23:03.207   702   802 D ActivityManager: freezing 2470 com.android.vending:background
+06-22 03:23:03.422  7458  7458 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: package
+06-22 03:23:03.557   702   853 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-22 03:23:03.561   702   853 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-22 03:23:03.561   702   853 D InetDiagMessage: Destroyed live tcp sockets for uids={10145} in 16ms
+06-22 03:23:03.708  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/base.odex) is kOatUpToDate with filter 'speed-profile' executable 'false'
+06-22 03:23:03.713  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_AdsDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:03.718  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_CronetDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:03.728  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteLoader_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:03.732  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteModulesA_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:03.735  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteModulesC_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:03.741  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_GoogleCertificates_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:03.744  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_MapsDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:03.749  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_MeasurementDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:03.751  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000001/CronetDynamite.apk has no usable artifacts
+06-22 03:23:03.754  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000014/dl-MlkitOcrCommon.optional_262233100800.apk has no usable artifacts
+06-22 03:23:03.756  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000002/DynamiteLoader.apk has no usable artifacts
+06-22 03:23:03.757  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000005/GoogleCertificates.apk has no usable artifacts
+06-22 03:23:03.759  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000013/dl-MlkitBarcodeUi.optional_262233100800.apk has no usable artifacts
+06-22 03:23:03.762  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000008/dl-MlkitBarcodeUi.optional_250834100800.apk has no usable artifacts
+06-22 03:23:03.765  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000019/dl-IdentityCredentialsPlatform.optional_262233100800.apk has no usable artifacts
+06-22 03:23:03.768  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000015/dl-PlayCloudSearch.optional_262233100000.apk has no usable artifacts
+06-22 03:23:03.771  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000a/dl-Appsearch.optional_250834100800.apk has no usable artifacts
+06-22 03:23:03.774  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000c/dl-TfliteDynamiteDynamite.integ_260580502100800.apk has no usable artifacts
+06-22 03:23:03.777  2345  2353 I artd    : GetBestInfo: vdex next to the dex file (/data/user/0/com.google.android.gms/app_dg_cache/9BCBC14EE674B00B958D4B0C5B4BD883630AA39E/oat/x86_64/the.vdex) is kOatUpToDate with filter 'verify' executable 'false'
+06-22 03:23:03.780  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000017/dl-Appsearch.optional_262233100800.apk has no usable artifacts
+06-22 03:23:03.784  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000016/dl-VisionOcr.optional_262233100000.apk has no usable artifacts
+06-22 03:23:03.789  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000007/MeasurementDynamite.apk has no usable artifacts
+06-22 03:23:04.018   702   717 I system_server: Background concurrent mark compact GC freed 23MB AllocSpace bytes, 8(160KB) LOS objects, 44% free, 30MB/54MB, paused 3.051ms,7.381ms total 210.677ms
+06-22 03:23:09.385  1070  1288 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-22 03:23:10.992   931   931 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+06-22 03:23:13.362  7461  7461 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: package
+06-22 03:23:13.692  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/base.odex) is kOatUpToDate with filter 'speed-profile' executable 'false'
+06-22 03:23:13.699  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_AdsDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:13.702  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_CronetDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:13.705  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteLoader_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:13.709  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteModulesA_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:13.712  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteModulesC_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:13.718  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_GoogleCertificates_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:13.723  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_MapsDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:13.733  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_MeasurementDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:13.736  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000001/CronetDynamite.apk has no usable artifacts
+06-22 03:23:13.742  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000014/dl-MlkitOcrCommon.optional_262233100800.apk has no usable artifacts
+06-22 03:23:13.744  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000002/DynamiteLoader.apk has no usable artifacts
+06-22 03:23:13.745  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000005/GoogleCertificates.apk has no usable artifacts
+06-22 03:23:13.749  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000013/dl-MlkitBarcodeUi.optional_262233100800.apk has no usable artifacts
+06-22 03:23:13.754  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000008/dl-MlkitBarcodeUi.optional_250834100800.apk has no usable artifacts
+06-22 03:23:13.758  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000019/dl-IdentityCredentialsPlatform.optional_262233100800.apk has no usable artifacts
+06-22 03:23:13.767  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000015/dl-PlayCloudSearch.optional_262233100000.apk has no usable artifacts
+06-22 03:23:13.772  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000a/dl-Appsearch.optional_250834100800.apk has no usable artifacts
+06-22 03:23:13.775  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000c/dl-TfliteDynamiteDynamite.integ_260580502100800.apk has no usable artifacts
+06-22 03:23:13.779  2345  2353 I artd    : GetBestInfo: vdex next to the dex file (/data/user/0/com.google.android.gms/app_dg_cache/9BCBC14EE674B00B958D4B0C5B4BD883630AA39E/oat/x86_64/the.vdex) is kOatUpToDate with filter 'verify' executable 'false'
+06-22 03:23:13.781  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000017/dl-Appsearch.optional_262233100800.apk has no usable artifacts
+06-22 03:23:13.785  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000016/dl-VisionOcr.optional_262233100000.apk has no usable artifacts
+06-22 03:23:13.790  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000007/MeasurementDynamite.apk has no usable artifacts
+06-22 03:23:18.931   931   931 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+06-22 03:23:19.388  1070  1288 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-22 03:23:23.357  7464  7464 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: package
+06-22 03:23:23.661  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/base.odex) is kOatUpToDate with filter 'speed-profile' executable 'false'
+06-22 03:23:23.665  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_AdsDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:23.670  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_CronetDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:23.673  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteLoader_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:23.677  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteModulesA_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:23.681  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteModulesC_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:23.684  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_GoogleCertificates_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:23.688  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_MapsDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:23.692  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_MeasurementDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:23.694  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000001/CronetDynamite.apk has no usable artifacts
+06-22 03:23:23.697  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000014/dl-MlkitOcrCommon.optional_262233100800.apk has no usable artifacts
+06-22 03:23:23.698  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000002/DynamiteLoader.apk has no usable artifacts
+06-22 03:23:23.699  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000005/GoogleCertificates.apk has no usable artifacts
+06-22 03:23:23.702  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000013/dl-MlkitBarcodeUi.optional_262233100800.apk has no usable artifacts
+06-22 03:23:23.705  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000008/dl-MlkitBarcodeUi.optional_250834100800.apk has no usable artifacts
+06-22 03:23:23.708  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000019/dl-IdentityCredentialsPlatform.optional_262233100800.apk has no usable artifacts
+06-22 03:23:23.712  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000015/dl-PlayCloudSearch.optional_262233100000.apk has no usable artifacts
+06-22 03:23:23.715  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000a/dl-Appsearch.optional_250834100800.apk has no usable artifacts
+06-22 03:23:23.719  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000c/dl-TfliteDynamiteDynamite.integ_260580502100800.apk has no usable artifacts
+06-22 03:23:23.725  2345  2353 I artd    : GetBestInfo: vdex next to the dex file (/data/user/0/com.google.android.gms/app_dg_cache/9BCBC14EE674B00B958D4B0C5B4BD883630AA39E/oat/x86_64/the.vdex) is kOatUpToDate with filter 'verify' executable 'false'
+06-22 03:23:23.727  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000017/dl-Appsearch.optional_262233100800.apk has no usable artifacts
+06-22 03:23:23.730  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000016/dl-VisionOcr.optional_262233100000.apk has no usable artifacts
+06-22 03:23:23.732  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000007/MeasurementDynamite.apk has no usable artifacts
+06-22 03:23:26.864   931   931 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+06-22 03:23:29.386  1070  1288 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-22 03:23:33.473  7467  7467 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: package
+06-22 03:23:33.753  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/base.odex) is kOatUpToDate with filter 'speed-profile' executable 'false'
+06-22 03:23:33.760  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_AdsDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:33.764  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_CronetDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:33.767  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteLoader_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:33.772  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteModulesA_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:33.776  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteModulesC_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:33.779  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_GoogleCertificates_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:33.782  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_MapsDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:33.785  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_MeasurementDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:33.787  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000001/CronetDynamite.apk has no usable artifacts
+06-22 03:23:33.789  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000014/dl-MlkitOcrCommon.optional_262233100800.apk has no usable artifacts
+06-22 03:23:33.790  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000002/DynamiteLoader.apk has no usable artifacts
+06-22 03:23:33.791  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000005/GoogleCertificates.apk has no usable artifacts
+06-22 03:23:33.793  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000013/dl-MlkitBarcodeUi.optional_262233100800.apk has no usable artifacts
+06-22 03:23:33.796  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000008/dl-MlkitBarcodeUi.optional_250834100800.apk has no usable artifacts
+06-22 03:23:33.799  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000019/dl-IdentityCredentialsPlatform.optional_262233100800.apk has no usable artifacts
+06-22 03:23:33.802  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000015/dl-PlayCloudSearch.optional_262233100000.apk has no usable artifacts
+06-22 03:23:33.805  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000a/dl-Appsearch.optional_250834100800.apk has no usable artifacts
+06-22 03:23:33.808  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000c/dl-TfliteDynamiteDynamite.integ_260580502100800.apk has no usable artifacts
+06-22 03:23:33.811  2345  2353 I artd    : GetBestInfo: vdex next to the dex file (/data/user/0/com.google.android.gms/app_dg_cache/9BCBC14EE674B00B958D4B0C5B4BD883630AA39E/oat/x86_64/the.vdex) is kOatUpToDate with filter 'verify' executable 'false'
+06-22 03:23:33.813  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000017/dl-Appsearch.optional_262233100800.apk has no usable artifacts
+06-22 03:23:33.816  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000016/dl-VisionOcr.optional_262233100000.apk has no usable artifacts
+06-22 03:23:33.818  2345  2353 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000007/MeasurementDynamite.apk has no usable artifacts
+06-22 03:23:34.800   931   931 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+06-22 03:23:39.401  1070  1288 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-22 03:23:39.844  1540  2101 I bbax    : (REDACTED) getHotwordActive::active query: %s, watch: %s, devices connected: %s
+06-22 03:23:42.992   931   931 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+06-22 03:23:43.389  7470  7470 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: package
+06-22 03:23:43.676  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/base.odex) is kOatUpToDate with filter 'speed-profile' executable 'false'
+06-22 03:23:43.684  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_AdsDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:43.688  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_CronetDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:43.691  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteLoader_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:43.694  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteModulesA_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:43.699  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteModulesC_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:43.702  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_GoogleCertificates_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:43.705  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_MapsDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:43.708  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_MeasurementDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:43.709  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000001/CronetDynamite.apk has no usable artifacts
+06-22 03:23:43.712  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000014/dl-MlkitOcrCommon.optional_262233100800.apk has no usable artifacts
+06-22 03:23:43.714  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000002/DynamiteLoader.apk has no usable artifacts
+06-22 03:23:43.714  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000005/GoogleCertificates.apk has no usable artifacts
+06-22 03:23:43.718  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000013/dl-MlkitBarcodeUi.optional_262233100800.apk has no usable artifacts
+06-22 03:23:43.721  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000008/dl-MlkitBarcodeUi.optional_250834100800.apk has no usable artifacts
+06-22 03:23:43.724  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000019/dl-IdentityCredentialsPlatform.optional_262233100800.apk has no usable artifacts
+06-22 03:23:43.727  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000015/dl-PlayCloudSearch.optional_262233100000.apk has no usable artifacts
+06-22 03:23:43.731  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000a/dl-Appsearch.optional_250834100800.apk has no usable artifacts
+06-22 03:23:43.734  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000c/dl-TfliteDynamiteDynamite.integ_260580502100800.apk has no usable artifacts
+06-22 03:23:43.738  2345  2345 I artd    : GetBestInfo: vdex next to the dex file (/data/user/0/com.google.android.gms/app_dg_cache/9BCBC14EE674B00B958D4B0C5B4BD883630AA39E/oat/x86_64/the.vdex) is kOatUpToDate with filter 'verify' executable 'false'
+06-22 03:23:43.741  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000017/dl-Appsearch.optional_262233100800.apk has no usable artifacts
+06-22 03:23:43.744  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000016/dl-VisionOcr.optional_262233100000.apk has no usable artifacts
+06-22 03:23:43.746  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000007/MeasurementDynamite.apk has no usable artifacts
+06-22 03:23:47.563   702  1195 W AppOps  : Noting op not finished: uid 10143 pkg com.google.android.gms code 113 startTime of in progress event=1782081238066
+06-22 03:23:47.565  1243  1243 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.PersistentApiService }
+06-22 03:23:47.645   702  1832 W AppOps  : Noting op not finished: uid 10143 pkg com.google.android.gms code 79 startTime of in progress event=1782081238065
+06-22 03:23:47.657  1243  1691 I ActivityScheduler: nextTriggerTime: 6718762, in 238100ms, detectorType: 39, FULL_TYPE alarmWindowMillis: 80000
+06-22 03:23:48.566   702  1195 W AppOps  : Noting op not finished: uid 10143 pkg com.google.android.gms code 113 startTime of in progress event=1782081238066
+06-22 03:23:48.784   702   749 E BluetoothPowerStatsCollector: Cannot acquire BluetoothActivityEnergyInfo
+06-22 03:23:48.784   702   749 E BluetoothPowerStatsCollector: java.util.concurrent.ExecutionException: java.lang.RuntimeException: error: 11
+06-22 03:23:48.784   702   749 E BluetoothPowerStatsCollector: 	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:372)
+06-22 03:23:48.784   702   749 E BluetoothPowerStatsCollector: 	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2072)
+06-22 03:23:48.784   702   749 E BluetoothPowerStatsCollector: 	at com.android.server.power.stats.BluetoothPowerStatsCollector.collectBluetoothActivityInfo(BluetoothPowerStatsCollector.java:192)
+06-22 03:23:48.784   702   749 E BluetoothPowerStatsCollector: 	at com.android.server.power.stats.BluetoothPowerStatsCollector.collectStats(BluetoothPowerStatsCollector.java:155)
+06-22 03:23:48.784   702   749 E BluetoothPowerStatsCollector: 	at com.android.server.power.stats.PowerStatsCollector.collectAndDeliverStats(PowerStatsCollector.java:176)
+06-22 03:23:48.784   702   749 E BluetoothPowerStatsCollector: 	at com.android.server.power.stats.PowerStatsCollector$$ExternalSyntheticLambda0.run(R8$$SyntheticClass:0)
+06-22 03:23:48.784   702   749 E BluetoothPowerStatsCollector: 	at android.os.Handler.handleCallback(Handler.java:995)
+06-22 03:23:48.784   702   749 E BluetoothPowerStatsCollector: 	at android.os.Handler.dispatchMessage(Handler.java:103)
+06-22 03:23:48.784   702   749 E BluetoothPowerStatsCollector: 	at android.os.Looper.loopOnce(Looper.java:248)
+06-22 03:23:48.784   702   749 E BluetoothPowerStatsCollector: 	at android.os.Looper.loop(Looper.java:338)
+06-22 03:23:48.784   702   749 E BluetoothPowerStatsCollector: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+06-22 03:23:48.784   702   749 E BluetoothPowerStatsCollector: Caused by: java.lang.RuntimeException: error: 11
+06-22 03:23:48.784   702   749 E BluetoothPowerStatsCollector: 	at com.android.server.power.stats.BluetoothPowerStatsCollector$1.onBluetoothActivityEnergyInfoError(BluetoothPowerStatsCollector.java:181)
+06-22 03:23:48.784   702   749 E BluetoothPowerStatsCollector: 	at android.bluetooth.BluetoothAdapter$OnBluetoothActivityEnergyInfoProxy.lambda$onBluetoothActivityEnergyInfoAvailable$0(BluetoothAdapter.java:1037)
+06-22 03:23:48.784   702   749 E BluetoothPowerStatsCollector: 	at android.bluetooth.BluetoothAdapter$OnBluetoothActivityEnergyInfoProxy$$ExternalSyntheticLambda1.run(D8$$SyntheticClass:0)
+06-22 03:23:48.784   702   749 E BluetoothPowerStatsCollector: 	at android.bluetooth.BluetoothUtils.lambda$executeFromBinder$0(BluetoothUtils.java:343)
+06-22 03:23:48.784   702   749 E BluetoothPowerStatsCollector: 	at android.bluetooth.BluetoothUtils$$ExternalSyntheticLambda1.run(D8$$SyntheticClass:0)
+06-22 03:23:48.784   702   749 E BluetoothPowerStatsCollector: 	at com.android.server.SystemServerInitThreadPool$$ExternalSyntheticLambda0.execute(R8$$SyntheticClass:0)
+06-22 03:23:48.784   702   749 E BluetoothPowerStatsCollector: 	at android.bluetooth.BluetoothUtils.executeFromBinder(BluetoothUtils.java:343)
+06-22 03:23:48.784   702   749 E BluetoothPowerStatsCollector: 	at android.bluetooth.BluetoothAdapter$OnBluetoothActivityEnergyInfoProxy.onBluetoothActivityEnergyInfoAvailable(BluetoothAdapter.java:1035)
+06-22 03:23:48.784   702   749 E BluetoothPowerStatsCollector: 	at android.bluetooth.IBluetoothActivityEnergyInfoListener$Stub.onTransact(IBluetoothActivityEnergyInfoListener.java:98)
+06-22 03:23:48.784   702   749 E BluetoothPowerStatsCollector: 	at android.os.Binder.execTransactInternal(Binder.java:1426)
+06-22 03:23:48.784   702   749 E BluetoothPowerStatsCollector: 	at android.os.Binder.execTransact(Binder.java:1365)
+06-22 03:23:49.386  1070  1288 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-22 03:23:50.929   931   931 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+06-22 03:23:52.596  1243  1243 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action:/... xflg=0x4 cmp=com.google.android.gms/.chimera.PersistentApiService }
+06-22 03:23:53.405  7476  7476 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: package
+06-22 03:23:53.723  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/base.odex) is kOatUpToDate with filter 'speed-profile' executable 'false'
+06-22 03:23:53.727  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_AdsDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:53.730  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_CronetDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:53.733  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteLoader_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:53.736  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteModulesA_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:53.740  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteModulesC_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:53.743  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_GoogleCertificates_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:53.746  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_MapsDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:53.751  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_MeasurementDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:23:53.752  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000001/CronetDynamite.apk has no usable artifacts
+06-22 03:23:53.755  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000014/dl-MlkitOcrCommon.optional_262233100800.apk has no usable artifacts
+06-22 03:23:53.756  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000002/DynamiteLoader.apk has no usable artifacts
+06-22 03:23:53.757  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000005/GoogleCertificates.apk has no usable artifacts
+06-22 03:23:53.759  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000013/dl-MlkitBarcodeUi.optional_262233100800.apk has no usable artifacts
+06-22 03:23:53.762  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000008/dl-MlkitBarcodeUi.optional_250834100800.apk has no usable artifacts
+06-22 03:23:53.764  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000019/dl-IdentityCredentialsPlatform.optional_262233100800.apk has no usable artifacts
+06-22 03:23:53.767  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000015/dl-PlayCloudSearch.optional_262233100000.apk has no usable artifacts
+06-22 03:23:53.770  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000a/dl-Appsearch.optional_250834100800.apk has no usable artifacts
+06-22 03:23:53.773  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000c/dl-TfliteDynamiteDynamite.integ_260580502100800.apk has no usable artifacts
+06-22 03:23:53.776  2345  2345 I artd    : GetBestInfo: vdex next to the dex file (/data/user/0/com.google.android.gms/app_dg_cache/9BCBC14EE674B00B958D4B0C5B4BD883630AA39E/oat/x86_64/the.vdex) is kOatUpToDate with filter 'verify' executable 'false'
+06-22 03:23:53.779  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000017/dl-Appsearch.optional_262233100800.apk has no usable artifacts
+06-22 03:23:53.782  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000016/dl-VisionOcr.optional_262233100000.apk has no usable artifacts
+06-22 03:23:53.784  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000007/MeasurementDynamite.apk has no usable artifacts
+06-22 03:23:58.864   931   931 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+06-22 03:23:59.388  1070  1288 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+06-22 03:24:03.348  7480  7480 W dumpsys : Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: package
+06-22 03:24:03.621  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/base.odex) is kOatUpToDate with filter 'speed-profile' executable 'false'
+06-22 03:24:03.630  2345  2353 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_AdsDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:24:03.635  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_CronetDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:24:03.640  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteLoader_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:24:03.644  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteModulesA_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:24:03.648  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_DynamiteModulesC_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:24:03.653  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_GoogleCertificates_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:24:03.658  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_MapsDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:24:03.662  2345  2345 I artd    : GetBestInfo: odex next to the dex file (/data/app/~~pON8V_hcHgmLH65jhDQwWg==/com.google.android.gms-Ihe2HlPEBd53rTDuUD9DKA==/oat/x86_64/split_MeasurementDynamite_installtime.odex) is kOatUpToDate with filter 'speed' executable 'false'
+06-22 03:24:03.664  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000001/CronetDynamite.apk has no usable artifacts
+06-22 03:24:03.667  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000014/dl-MlkitOcrCommon.optional_262233100800.apk has no usable artifacts
+06-22 03:24:03.668  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000002/DynamiteLoader.apk has no usable artifacts
+06-22 03:24:03.669  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000005/GoogleCertificates.apk has no usable artifacts
+06-22 03:24:03.672  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000013/dl-MlkitBarcodeUi.optional_262233100800.apk has no usable artifacts
+06-22 03:24:03.675  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000008/dl-MlkitBarcodeUi.optional_250834100800.apk has no usable artifacts
+06-22 03:24:03.677  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000019/dl-IdentityCredentialsPlatform.optional_262233100800.apk has no usable artifacts
+06-22 03:24:03.681  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000015/dl-PlayCloudSearch.optional_262233100000.apk has no usable artifacts
+06-22 03:24:03.684  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000a/dl-Appsearch.optional_250834100800.apk has no usable artifacts
+06-22 03:24:03.687  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000c/dl-TfliteDynamiteDynamite.integ_260580502100800.apk has no usable artifacts
+06-22 03:24:03.691  2345  2345 I artd    : GetBestInfo: vdex next to the dex file (/data/user/0/com.google.android.gms/app_dg_cache/9BCBC14EE674B00B958D4B0C5B4BD883630AA39E/oat/x86_64/the.vdex) is kOatUpToDate with filter 'verify' executable 'false'
+06-22 03:24:03.694  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000017/dl-Appsearch.optional_262233100800.apk has no usable artifacts
+06-22 03:24:03.697  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000016/dl-VisionOcr.optional_262233100000.apk has no usable artifacts
+06-22 03:24:03.700  2345  2345 I artd    : GetBestInfo: /data/user_de/0/com.google.android.gms/app_chimera/m/00000007/MeasurementDynamite.apk has no usable artifacts
+06-22 03:24:06.800   931   931 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+06-22 03:24:09.391  1070  1288 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled

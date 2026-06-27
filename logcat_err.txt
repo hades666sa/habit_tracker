@@ -1,0 +1,8 @@
+--------- beginning of main
+06-22 03:40:41.316 31748 31748 E ppmanager:pnsv: Not starting debugger since process cannot load the jdwp agent.
+--------- beginning of system
+06-22 03:40:41.468 31748 31769 E ActivityThread: Failed to find provider info for com.samsung.android.mdx.windowslink.Tile.Provider
+06-22 03:40:41.489 31748 31748 E ActivityThread: Failed to find provider info for com.microsoft.yourphonecompanion.contentprovider.featureoverride
+06-22 03:40:41.492 31779 31779 E soft.appmanage: Not starting debugger since process cannot load the jdwp agent.
+06-22 03:40:41.648 31779 31779 E ActivityThread: Failed to find provider info for com.microsoft.yourphonecompanion.contentprovider.featureoverride
+06-22 03:40:41.698 31779 31831 E ActivityThread: Failed to find provider info for com.samsung.android.mdx.windowslink.Tile.Provider
