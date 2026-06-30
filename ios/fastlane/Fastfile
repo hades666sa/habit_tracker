@@ -1,0 +1,185 @@
+# Fastlane configuration for Habit Tracker iOS
+# Run: bundle install (after adding Gemfile) then fastlane <lane>
+
+default_platform(:ios)
+
+platform :ios do
+  # App identifier
+  APP_IDENTIFIER = "com.loop.habittracker.habitTrackerFlutter"
+  WIDGET_APP_IDENTIFIER = "com.loop.habittracker.habitTrackerFlutter.HabitWidgetExtension"
+  
+  # Team ID (from Apple Developer Portal)
+  TEAM_ID = ENV["FASTLANE_TEAM_ID"] || "YOUR_TEAM_ID_HERE"
+  
+  # Match configuration
+  MATCH_GIT_URL = ENV["MATCH_GIT_URL"] || "git@github.com:your-org/certificates.git"
+  MATCH_TYPE = "appstore"
+  
+  # API Key for App Store Connect
+  ASC_API_KEY_ID = ENV["APP_STORE_CONNECT_API_KEY_ID"]
+  ASC_API_KEY_ISSUER = ENV["APP_STORE_CONNECT_API_KEY_ISSUER"]
+  ASC_API_KEY_CONTENT = ENV["APP_STORE_CONNECT_API_KEY_CONTENT"]
+
+  before_all do
+    setup_circle_ci if ENV["CI"]
+  end
+
+  # ========================================
+  # CERTIFICATES & PROVISIONING
+  # ========================================
+  
+  desc "Setup certificates and provisioning profiles using match"
+  lane :certificates do
+    match(
+      type: MATCH_TYPE,
+      app_identifier: [APP_IDENTIFIER, WIDGET_APP_IDENTIFIER],
+      git_url: MATCH_GIT_URL,
+      git_branch: "main",
+      readonly: is_ci,
+      api_key: app_store_connect_api_key,
+      team_id: TEAM_ID
+    )
+  end
+
+  desc "Sync certificates (read-only on CI)"
+  lane :sync_certificates do
+    match(
+      type: MATCH_TYPE,
+      app_identifier: [APP_IDENTIFIER, WIDGET_APP_IDENTIFIER],
+      git_url: MATCH_GIT_URL,
+      git_branch: "main",
+      readonly: true,
+      api_key: app_store_connect_api_key,
+      team_id: TEAM_ID
+    )
+  end
+
+  # ========================================
+  # BUILD LANES
+  # ========================================
+  
+  desc "Build for development/testing"
+  lane :build_dev do
+    sync_certificates
+    
+    build_ios_app(
+      workspace: "Runner.xcworkspace",
+      scheme: "Runner",
+      configuration: "Debug",
+      export_method: "development",
+      output_directory: "./build/ipa",
+      output_name: "Runner-dev.ipa",
+      silent: true,
+      clean: true,
+      export_options: {
+        provisioningProfiles: {
+          APP_IDENTIFIER => "match development #{APP_IDENTIFIER}",
+          WIDGET_APP_IDENTIFIER => "match development #{WIDGET_APP_IDENTIFIER}"
+        }
+      }
+    )
+  end
+
+  desc "Build for TestFlight / App Store"
+  lane :build_release do
+    sync_certificates
+    
+    # Increment build number
+    increment_build_number(
+      build_number: ENV["BUILD_NUMBER"] || latest_testflight_build_number + 1,
+      xcodeproj: "Runner.xcodeproj"
+    )
+    
+    # Set marketing version
+    version = ENV["BUILD_NAME"] || get_version_number(xcodeproj: "Runner.xcodeproj")
+    increment_version_number(
+      version_number: version,
+      xcodeproj: "Runner.xcodeproj"
+    )
+    
+    build_ios_app(
+      workspace: "Runner.xcworkspace",
+      scheme: "Runner",
+      configuration: "Release",
+      export_method: "app-store",
+      output_directory: "./build/ipa",
+      output_name: "Runner.ipa",
+      silent: true,
+      clean: true,
+      export_options: {
+        provisioningProfiles: {
+          APP_IDENTIFIER => "match appstore #{APP_IDENTIFIER}",
+          WIDGET_APP_IDENTIFIER => "match appstore #{WIDGET_APP_IDENTIFIER}"
+        }
+      }
+    )
+  end
+
+  # ========================================
+  # DEPLOY LANES
+  # ========================================
+  
+  desc "Upload to TestFlight"
+  lane :upload_testflight do
+    build_release
+    
+    pilot(
+      api_key: app_store_connect_api_key,
+      skip_waiting_for_build_processing: true,
+      distribute_external: false,
+      notify_external_testers: false,
+      changelog: ENV["CHANGELOG"] || "Automated build from CI"
+    )
+  end
+
+  desc "Deploy to App Store"
+  lane :deploy_appstore do
+    build_release
+    
+    deliver(
+      api_key: app_store_connect_api_key,
+      submit_for_review: false,
+      automatic_release: false,
+      force: true,
+      skip_metadata: false,
+      skip_screenshots: false,
+      skip_binary_upload: false
+    )
+  end
+
+  # ========================================
+  # UTILITY LANES
+  # ========================================
+  
+  desc "Get latest TestFlight build number"
+  lane :latest_build do
+    latest_testflight_build_number(
+      api_key: app_store_connect_api_key,
+      app_identifier: APP_IDENTIFIER
+    )
+  end
+
+  desc "Print current version"
+  lane :version do
+    puts "Version: #{get_version_number(xcodeproj: 'Runner.xcodeproj')}"
+    puts "Build: #{get_build_number(xcodeproj: 'Runner.xcodeproj')}"
+  end
+
+  # ========================================
+  # PRIVATE HELPERS
+  # ========================================
+  
+  private_lane :app_store_connect_api_key do
+    if ASC_API_KEY_ID && ASC_API_KEY_ISSUER && ASC_API_KEY_CONTENT
+      {
+        key_id: ASC_API_KEY_ID,
+        issuer_id: ASC_API_KEY_ISSUER,
+        key_content: ASC_API_KEY_CONTENT,
+        is_key_content_base64: true,
+        in_house: false
+      }
+    else
+      UI.user_error!("App Store Connect API credentials not configured")
+    end
+  end
+end

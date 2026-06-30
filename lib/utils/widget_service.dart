@@ -112,5 +112,9 @@ class WidgetService {
     await HomeWidget.updateWidget(androidName: androidCompactProvider);
     await HomeWidget.updateWidget(androidName: androidSmallProvider);
     await HomeWidget.updateWidget(androidName: androidMediumProvider);
+
+    // Update iOS Widgets
+    await HomeWidget.updateWidget(iOSName: 'HabitWidgetSmall');
+    await HomeWidget.updateWidget(iOSName: 'HabitWidgetMedium');
   }
 }

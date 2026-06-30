@@ -1,0 +1,194 @@
+name: iOS Build & Deploy
+
+on:
+  push:
+    branches: [main, master]
+    tags: ['v*']
+  workflow_dispatch:
+    inputs:
+      deploy_testflight:
+        description: 'Deploy to TestFlight'
+        required: false
+        type: boolean
+        default: false
+
+env:
+  FLUTTER_VERSION: '3.24.3'
+  XCODE_VERSION: '15.4'
+  IOS_DEPLOYMENT_TARGET: '13.0'
+  WIDGET_EXTENSION_ID: 'com.loop.habittracker.habitTrackerFlutter.HabitWidgetExtension'
+
+jobs:
+  build_ios:
+    name: Build iOS
+    runs-on: macos-14
+    timeout-minutes: 60
+    
+    steps:
+      # ===== CHECKOUT =====
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Needed for git tags/version
+      
+      # ===== SETUP FLUTTER =====
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: 'stable'
+          cache: true
+      
+      - name: Verify Flutter
+        run: flutter --version
+      
+      # ===== DEPENDENCIES =====
+      - name: Get Flutter dependencies
+        run: flutter pub get
+      
+      # ===== IOS PODS =====
+      - name: Install CocoaPods
+        run: |
+          cd ios
+          pod install --repo-update
+          cd ..
+      
+      # ===== BUILD CONFIGURATION =====
+      - name: Configure build
+        run: |
+          # Set build number from GitHub run number
+          echo "BUILD_NUMBER=${{ github.run_number }}" >> $GITHUB_ENV
+          echo "BUILD_NAME=$(git describe --tags --always --dirty 2>/dev/null || echo '1.0.0')" >> $GITHUB_ENV
+      
+      # ===== BUILD IOS (DEBUG) =====
+      - name: Build iOS Debug
+        if: github.event_name != 'release' && inputs.deploy_testflight != 'true'
+        run: |
+          flutter build ios --debug \
+            --build-name=${{ env.BUILD_NAME }} \
+            --build-number=${{ env.BUILD_NUMBER }}
+      
+      # ===== BUILD IOS (RELEASE) =====
+      - name: Build iOS Release (No Code Sign)
+        if: github.event_name == 'release' || inputs.deploy_testflight == 'true'
+        run: |
+          flutter build ios --release \
+            --build-name=${{ env.BUILD_NAME }} \
+            --build-number=${{ env.BUILD_NUMBER }} \
+            --no-codesign
+      
+      # ===== CODE SIGN & ARCHIVE (for TestFlight) =====
+      - name: Archive for TestFlight
+        if: inputs.deploy_testflight == 'true'
+        env:
+          MATCH_APP_IDENTIFIER: com.loop.habittracker.habitTrackerFlutter
+          MATCH_WIDGET_APP_IDENTIFIER: ${{ env.WIDGET_EXTENSION_ID }}
+          MATCH_GIT_URL: ${{ secrets.MATCH_GIT_URL }}
+          MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
+          APP_STORE_CONNECT_API_KEY_ID: ${{ secrets.APP_STORE_CONNECT_API_KEY_ID }}
+          APP_STORE_CONNECT_API_KEY_ISSUER: ${{ secrets.APP_STORE_CONNECT_API_KEY_ISSUER }}
+          APP_STORE_CONNECT_API_KEY_CONTENT: ${{ secrets.APP_STORE_CONNECT_API_KEY_CONTENT }}
+          FASTLANE_TEAM_ID: ${{ secrets.FASTLANE_TEAM_ID }}
+        run: |
+          cd ios
+          
+          # Install fastlane
+          gem install fastlane -N
+          
+          # Setup match for certificates (if configured)
+          if [ -n "$MATCH_GIT_URL" ]; then
+            # Main app certificate
+            fastlane match appstore --readonly \
+              --git_url "$MATCH_GIT_URL" \
+              --git_branch "main" \
+              --app_identifier "$MATCH_APP_IDENTIFIER" \
+              --username "$APP_STORE_CONNECT_API_KEY_ID" \
+              --key_id "$APP_STORE_CONNECT_API_KEY_ID" \
+              --key_issuer "$APP_STORE_CONNECT_API_KEY_ISSUER" \
+              --key_content "$APP_STORE_CONNECT_API_KEY_CONTENT"
+            
+            # Widget extension certificate
+            fastlane match appstore --readonly \
+              --git_url "$MATCH_GIT_URL" \
+              --git_branch "main" \
+              --app_identifier "$MATCH_WIDGET_APP_IDENTIFIER" \
+              --username "$APP_STORE_CONNECT_API_KEY_ID" \
+              --key_id "$APP_STORE_CONNECT_API_KEY_ID" \
+              --key_issuer "$APP_STORE_CONNECT_API_KEY_ISSUER" \
+              --key_content "$APP_STORE_CONNECT_API_KEY_CONTENT"
+          fi
+          
+          # Build and archive with automatic code signing
+          xcodebuild -workspace Runner.xcworkspace \
+            -scheme Runner \
+            -configuration Release \
+            -destination generic/platform=iOS \
+            -archivePath build/Runner.xcarchive \
+            -allowProvisioningUpdates \
+            CURRENT_PROJECT_VERSION=${{ env.BUILD_NUMBER }} \
+            MARKETING_VERSION=${{ env.BUILD_NAME }} \
+            clean archive
+          
+          # Export IPA
+          xcodebuild -exportArchive \
+            -archivePath build/Runner.xcarchive \
+            -exportPath build/ipa \
+            -exportOptionsPlist ExportOptions.plist
+          
+          # Upload to TestFlight using fastlane
+          fastlane pilot upload \
+            --ipa build/ipa/Runner.ipa \
+            --api_key_id "$APP_STORE_CONNECT_API_KEY_ID" \
+            --api_key_issuer "$APP_STORE_CONNECT_API_KEY_ISSUER" \
+            --api_key_content "$APP_STORE_CONNECT_API_KEY_CONTENT" \
+            --skip_waiting_for_build_processing
+      
+      # ===== ARTIFACTS =====
+      - name: Upload Debug Build Artifact
+        if: github.event_name != 'release' && inputs.deploy_testflight != 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: ios-debug-build
+          path: |
+            build/ios/debug/Runner.app
+            build/ios/iphoneos/Runner.app
+          retention-days: 7
+      
+      - name: Upload Release IPA
+        if: inputs.deploy_testflight == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: ios-release-ipa
+          path: ios/build/ipa/Runner.ipa
+          retention-days: 30
+
+  # ===== SEPARATE JOB FOR TESTFLIGHT DEPLOY =====
+  deploy_testflight:
+    name: Deploy to TestFlight
+    needs: build_ios
+    if: github.event_name == 'release' || github.event.inputs.deploy_testflight == 'true'
+    runs-on: macos-14
+    timeout-minutes: 30
+    steps:
+      - name: Download IPA
+        uses: actions/download-artifact@v4
+        with:
+          name: ios-release-ipa
+          path: ios/build/ipa
+      
+      - name: Deploy to TestFlight
+        env:
+          APP_STORE_CONNECT_API_KEY_ID: ${{ secrets.APP_STORE_CONNECT_API_KEY_ID }}
+          APP_STORE_CONNECT_API_KEY_ISSUER: ${{ secrets.APP_STORE_CONNECT_API_KEY_ISSUER }}
+          APP_STORE_CONNECT_API_KEY_CONTENT: ${{ secrets.APP_STORE_CONNECT_API_KEY_CONTENT }}
+        run: |
+          cd ios
+          gem install fastlane -N
+          fastlane pilot upload \
+            --ipa build/ipa/Runner.ipa \
+            --api_key_id "$APP_STORE_CONNECT_API_KEY_ID" \
+            --api_key_issuer "$APP_STORE_CONNECT_API_KEY_ISSUER" \
+            --api_key_content "$APP_STORE_CONNECT_API_KEY_CONTENT" \
+            --skip_waiting_for_build_processing \
+            --distribute_external false \
+            --notify_external_testers false
